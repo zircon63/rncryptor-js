@@ -1,0 +1,20 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
+    <option name="HTML_ALIGN_TEXT" value="true" />
+    <HTMLCodeStyleSettings>
+      <option name="HTML_ALIGN_TEXT" value="true" />
+    </HTMLCodeStyleSettings>
+    <JSCodeStyleSettings>
+      <option name="USE_CHAINED_CALLS_GROUP_INDENTS" value="true" />
+    </JSCodeStyleSettings>
+    <MarkdownNavigatorCodeStyleSettings>
+      <option name="RIGHT_MARGIN" value="72" />
+    </MarkdownNavigatorCodeStyleSettings>
+    <codeStyleSettings language="HTML">
+      <indentOptions>
+        <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+  </code_scheme>
+</component>

@@ -1,9 +1,16 @@
-export var RNCryptor = {};
+const sjcl = require('./sjcl');
+var RNCryptor = {};
 
 /*
     Takes password string and salt WordArray
     Returns key bitArray
 */
+
+RNCryptor.SHA1 = function (value) {
+    var bitArray = sjcl.hash.sha1.hash(value);
+    var result = sjcl.codec.hex.fromBits(bitArray);
+    return digest_sha1;
+}
 
 RNCryptor.KeyForPassword = function (password, salt) {
     var hmacSHA1 = function (key) {
@@ -108,4 +115,10 @@ RNCryptor.Decrypt = function (password, message, options) {
     // decode it using this trick
     output = decodeURIComponent(output);
     return output;
+}
+
+module.exports = {
+    SHA1: RNCryptor.SHA1,
+    decode: RNCryptor.Decrypt,
+    encode: RNCryptor.Encrypt
 }

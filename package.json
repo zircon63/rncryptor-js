@@ -1,0 +1,19 @@
+{
+  "name": "rncryptor",
+  "version": "1.0.0",
+  "description": "rncryptor-js\r ============",
+  "main": "rncryptor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zircon63/rncryptor-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zircon63/rncryptor-js/issues"
+  },
+  "homepage": "https://github.com/zircon63/rncryptor-js#readme"
+}
