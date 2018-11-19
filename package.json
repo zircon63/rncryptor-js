@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zircon63/rncryptor-js/issues"
   },
-  "homepage": "https://github.com/zircon63/rncryptor-js#readme"
+  "homepage": "https://github.com/zircon63/rncryptor-js#readme",
+  "dependencies": {
+    "rollup-plugin-uglify": "latest"
+  }
 }
